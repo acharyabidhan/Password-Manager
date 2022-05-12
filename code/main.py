@@ -356,7 +356,6 @@ includeS.place(relx=0.60, rely=0.40)
 
 passwordLength = Scale(randomFrame, from_= 4, to = 24, background="white", foreground="black",orient = HORIZONTAL, bd=0, variable=passLenngth)
 passwordLength.place(relx=0.0, rely=0.65, width=400)
-password_characters = numbersList+upperCaselist+lowerCaseList+symbolsList
 
 root.mainloop()
 #Made with ❤️ by Bidhan Acharya :)
